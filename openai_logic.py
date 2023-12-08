@@ -2,7 +2,7 @@ from openai import OpenAI
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     client = OpenAI(
-        api_key = "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"
+        api_key = "secret_API_KEY"
     )
 
     messages = [{"role": "user", "content": prompt}]
